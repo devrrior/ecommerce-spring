@@ -7,6 +7,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@Table(name = "categories")
 @Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
